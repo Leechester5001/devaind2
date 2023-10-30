@@ -236,7 +236,7 @@ h6 {
   color: #413e66;
   margin-bottom: 40px;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 550;
 }
 
 #intro .intro-info h2 span {
@@ -738,17 +738,20 @@ h6 {
 }
 
 #call-to-action .cta-btn {
+  
   font-family: "inter", sans-serif;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;
-  display: inline-block;
+  display:inline-block;
   padding: 8px 26px;
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
   border: 3px solid #fff;
   color: #fff;
+  text-align:center;
+  
 }
 
 #call-to-action .cta-btn:hover {
@@ -1495,6 +1498,7 @@ h6 {
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end;
+    
   }
 }
 
@@ -1518,6 +1522,7 @@ h6 {
 }
 
 @media (max-width: 991px) {
+  
   #topbar {
     display: none;
   }
